@@ -82,7 +82,7 @@ nav button{
     margin-right: 9px;
     margin-top: 2px;
 }
-
+/* -------------------------------------------------------page2------------------------------------------------------------- */
 .page2{
     /* position: relative; */
     height: 100vh;
@@ -93,3 +93,10 @@ nav button{
 
 /*---------------------------------------------------------- header-content section-------------------------------------------------------- */
 
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
