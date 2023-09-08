@@ -60,6 +60,7 @@ nav button{
     border: 1px solid #fff;
     overflow: hidden;
     padding: 7px 20px;
+    padding-left: 11px;
 }
 
 .language-btn img{
@@ -67,3 +68,11 @@ nav button{
     margin-left: 15px;
     padding-top: 7px;
 }
+
+.language-btn i{
+    size: 10px;
+    background-color: transparent;
+    margin-right: 9px;
+    margin-top: 2px;
+}
+
