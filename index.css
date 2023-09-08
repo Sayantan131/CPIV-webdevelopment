@@ -21,7 +21,14 @@ body {
 
 /* ----------------------------------------------------------------------------------nav-section------------------------------------------------------ */
 
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
 .header {
+    position: relative;
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/42df4e1f-bef6-499e-87ff-c990584de314/5e7c383c-1f88-4983-b4da-06e14c0984ba/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_large.jpg);
@@ -75,4 +82,14 @@ nav button{
     margin-right: 9px;
     margin-top: 2px;
 }
+
+.page2{
+    /* position: relative; */
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+
+/*---------------------------------------------------------- header-content section-------------------------------------------------------- */
 
