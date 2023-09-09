@@ -148,3 +148,46 @@ nav button{
     }
 
     /* -------------------------------------------------------page2------------------------------------------------------------- */
+
+.page2{
+
+    height: 80vh;
+    width: 100vw;
+    /* background-color: #fff; */
+    color: #fff;
+    display: flex;
+    padding-top: 1  0px;
+    border-top: 10px solid #262525;
+    border-bottom: 10px solid #262525;
+}
+
+.page2 .text-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.page2 .text-content h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.page2 .text-content p{
+    font-size: 22px;
+    margin-left: 180px;
+}
+.page2 .image {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2 .image img{
+    width: 35rem;
+    margin-right: 250px;
+    }
+
+    /* ---------------------------------------------------------page3--------------------------------------------------------------------- */
