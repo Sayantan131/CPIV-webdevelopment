@@ -277,3 +277,50 @@ nav button{
             width: 35rem;
             margin-right: 250px;
             }
+
+            /*------------------------------------------------------------ page5----------------------------------------------------------------------- */
+
+            .page5{
+
+                height: 80vh;
+                width: 100vw;
+                /* background-color: #fff; */
+                color: #fff;
+                display: flex;
+                padding-top: 1  0px;
+                 border-bottom: 10px solid #262525;
+            }
+        
+            .page5 .text-content{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                
+            }
+        
+            .page5 .text-content h2{
+                font-size: 50px;
+                margin-bottom: 20px;
+                /* padding-bottom  : 50px; */
+                margin-right: 170px;
+            }
+            .page5 .text-content p{
+                font-size: 22px;
+                margin-right: 80px;
+                padding-bottom: 100px;
+                width: 37rem;
+            }
+            .page5 .image {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .page5 .image img{
+                width: 34rem;
+                margin-left: 200px;
+                }
