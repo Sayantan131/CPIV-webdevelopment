@@ -235,3 +235,45 @@ nav button{
         width: 34rem;
         margin-left: 200px;
         }
+
+        /* --------------------------------------------------------------------page4---------------------------------------------------------- */
+        .page4{
+
+            height: 80vh;
+            width: 100vw;
+            /* background-color: #fff; */
+            color: #fff;
+            display: flex;
+            padding-top: 1  0px;
+          
+            border-bottom: 10px solid #262525;
+        }
+        
+        .page4 .text-content{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .page4 .text-content h2{
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .page4 .text-content p{
+            font-size: 22px;
+            margin-left: 65px;
+        }
+        .page4 .image {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .page4 .image img{
+            width: 35rem;
+            margin-right: 250px;
+            }
