@@ -119,13 +119,38 @@ nav button{
     }
 
     .email-signup{
-        background-color: #fff;
+        /* background-color: #fff; */
         border-radius: 4px;
         display: flex;
         overflow: hidden;
         align-items: center;
         margin-top: 30px;
         overflow: hidden;
+        margin-left: 240px;
+        margin-right: 240px;
+        gap: 5px;
     }
 
-    
+    .email-signup input{
+        flex: 1;
+        border: 2.5px solid #fff;
+        outline: 0;
+        margin-left: 20px;
+        background-color: transparent;
+        color: #fff;
+        padding: 20px 20px;
+        border-radius: 4px;
+    }
+
+    .email-signup button{
+        background-color: #e50914;
+        border: 0;
+        outline: 0;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 19px 50px;
+        border-radius: 4px;
+        /* font-size: 20px; */
+        font-weight: 800;
+    }
