@@ -100,3 +100,24 @@ nav button{
     transform: translate(-50%,-50%);
     text-align: center;
 }
+
+.header-content h1{
+    font-size: 50px;
+    white-space: nowrap;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    }
+
+    .header-content h3{
+        /* font-size:30px; */
+        margin-bottom: 20px;
+    }
+
+    .header-content p{
+        margin: 10px 0;
+        font-size: 19px;
+    }
+
+    .email-signup{
+        
+    }
