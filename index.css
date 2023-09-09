@@ -190,4 +190,48 @@ nav button{
     margin-right: 250px;
     }
 
-    /* ---------------------------------------------------------page3--------------------------------------------------------------------- */
+    /* ---------------------------------------------------------page3 ----------------------------------*/
+    .page3{
+
+        height: 80vh;
+        width: 100vw;
+        /* background-color: #fff; */
+        color: #fff;
+        display: flex;
+        padding-top: 1  0px;
+         border-bottom: 10px solid #262525;
+    }
+
+    .page3 .text-content{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .page3 .text-content h2{
+        font-size: 50px;
+        margin-bottom: 20px;
+        /* padding-bottom  : 50px; */
+        margin-right: 170px;
+    }
+    .page3 .text-content p{
+        font-size: 22px;
+        margin-right: 80px;
+        padding-bottom: 100px;
+        width: 37rem;
+    }
+    .page3 .image {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .page3 .image img{
+        width: 34rem;
+        margin-left: 200px;
+        }
