@@ -366,8 +366,37 @@ label::after{
     font-size: 34px;
     position: absolute;
     right: 20px;
+    transition: transform 0.5s;
 }
 
 input[type="radio"]{
     display: none;
+
+}
+
+.accordion .content{
+    background-color: #262525;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content {
+     max-height: 600px;
+     padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+.faq .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+
+.faq small{
+    font-size: 13px;
 }
