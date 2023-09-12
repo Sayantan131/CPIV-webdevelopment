@@ -404,5 +404,32 @@ input[type="radio"]{
 /*---------------------------------------------------------------------- foogter---------------------------------------------------------------- */
 
 .footer{
+    padding: 50px 15% 10px;
+     border-top: 6px solid #262525;
+     color: #777;
+}
+
+.footer h3{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .row{
     display: flex;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
