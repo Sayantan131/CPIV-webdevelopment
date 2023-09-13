@@ -145,6 +145,10 @@ nav button{
         border-radius: 4px;
         /* font-size: 20px; */
         font-weight: 800;
+        transition: all ease 1;
+    }
+    .email-signup button:hover{
+        scale: 1.2;
     }
 
     /* -------------------------------------------------------page2------------------------------------------------------------- */
